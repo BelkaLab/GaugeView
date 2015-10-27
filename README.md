@@ -3,7 +3,7 @@
 # GaugeView
 
 ## Introduction
-
+GaugeView is a view that you can use to build a Gauge. It has built-in easy customization such as color, size, text and many more properties. Do you need to display data in a simpler way? Or a fancy donut? This is the library you were searching for. Finally there's something for fancy donuts.
 
 ## Requiremetns
 * iOS 8+
