@@ -38,7 +38,7 @@ Link it with the outlet property declared in your code.
 	@IBOutlet private weak var gaugeView: GaugeView!
 ```
 
-Simple customize it! (Look at the Customization section to see more details)
+It's simple to customize! Here's an example of configuration of the view. Look at the Customization section to see more details.
 
 ```swift
 	gaugeView.percentage = 80
@@ -49,16 +49,16 @@ Simple customize it! (Look at the Customization section to see more details)
 ```
 
 ### Programmaticaly:
-Declare a varable with GaugeView type
+Declare a variable with GaugeView type
 
 ```swift 
 	private var gaugeView: GaugeView!
 ``` 
 
-Instantiate and customize it! (Look at the Customization section to see more details)
+Instantiate and customize it. Make it fancy! Look at the Customization section to see more details.
 
 ```swift
-	gaugeView = GaugeView(frame: CGRect(x: 0, y:0, width: 100, heigth: 100)
+	gaugeView = GaugeView(frame: CGRect(x: 0, y:0, width: 100, height: 100)
 
 	gaugeView.percentage = 80
    	gaugeView.thickness = 5
@@ -68,12 +68,12 @@ Instantiate and customize it! (Look at the Customization section to see more det
 ```
 
 ## Customization
-Here you can see the customizable properties:
+Those are the customizable properties:
 
 ### Gauge
 
-*	Float `startAngle`
-* 	CGFloat `thickness`
+*  Float `startAngle`
+*  CGFloat `thickness`
 *  Float `percentage`
 *  UIColor `gaugeBackgroundColor`
 *  UIColor `gaugeColor`
@@ -93,4 +93,7 @@ GaugeView is Copyright (c) 2015 Belka, srl. It is free software, and may be redi
 
 Belka is a Digital Agency specialized in design and develop mobile application and custom solutions.
 We love open source software! You can see our project or look at our case studies.
-Interested? hire us to help build you next amazing project.
+
+Interested? hire us to help build you next amazing project. 
+
+www.belka.us
