@@ -15,7 +15,7 @@ Add the GaugeView pod into your project and run `pod install`
 ```ruby
 	pod 'GaugeView'
 ```
-### Manual Installetion
+### Manual Install
 Download GaugeVIew and import `GaugeView.swift` and `GaugeLayer.swift` inside your xcode project.
 
 ## Sample App
@@ -25,7 +25,7 @@ To start to use GaugeView you can use the provided example
 2. Build and run.
 
 ## Usage
-Is is very easy to set it, import GaugeView in your Swift:
+It's very easy to set it, import GaugeView in your Swift:
 ```swift
 	import GaugeView
 ```
