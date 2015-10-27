@@ -94,6 +94,6 @@ GaugeView is Copyright (c) 2015 Belka, srl. It is free software, and may be redi
 Belka is a Digital Agency specialized in design and develop mobile application and custom solutions.
 We love open source software! You can see our project or look at our case studies.
 
-Interested? hire us to help build you next amazing project. 
+Interested? Hire us to help build you next amazing project. 
 
 www.belka.us
