@@ -1,7 +1,7 @@
 ![Alt text](http://s4.postimg.org/c77hy8fpp/Gauge_View_Banner.png)
 
 # GaugeView
--- 
+
 ## Introduction
 
 
@@ -69,6 +69,7 @@ Instantiate and customize it! (Look at the Customization section to see more det
 
 ## Customization
 Here you can see the customizable properties:
+
 ### Gauge
 
 *	Float `startAngle`
@@ -88,7 +89,7 @@ Here you can see the customizable properties:
 GaugeView is Copyright (c) 2015 Belka, srl. It is free software, and may be redistributed under the terms specified in the LICENSE file.
 
 ## About Belka
-![Alt text](http:​/​/​belka.us/​wp-content/​themes/​b3lab/​img/​logo.svg)
+![Alt text](http://s2.postimg.org/rcjk3hf5x/logo_rosso.jpg)
 
 Belka is a Digital Agency specialized in design and develop mobile application and custom solutions.
 We love open source software! You can see our project or look at our case studies.
