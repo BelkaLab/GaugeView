@@ -86,7 +86,8 @@ Those are the customizable properties:
 * UIColor `labelColor`
 
 ## License
-GaugeView is Copyright (c) 2015 Belka, srl. It is free software, and may be redistributed under the terms specified in the LICENSE file.
+GaugeView is Copyright (c) 2015 Belka, srl. It is free software, and may be redistributed under the terms specified in the LICENSE file.  
+Tl;dr it's MIT.
 
 ## About Belka
 ![Alt text](http://s2.postimg.org/rcjk3hf5x/logo_rosso.jpg)
