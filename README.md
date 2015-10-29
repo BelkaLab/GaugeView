@@ -3,7 +3,7 @@
 # GaugeView
 
 ## Introduction
-GaugeView is a view that you can use to build a Gauge. It has built-in easy customization such as color, size, text and many more properties. Do you need to display data in a simpler way? Or a fancy donut? This is the library you were searching for. Finally there's something for fancy donuts.
+GaugeView is a small library to create and display Gauge graphs. It is fully customizable: you can set the color, size, text and many other properties of the graph. Do you need to display data in a simple way? Or you just wanto to add a fancy donut to your app? This is the library you were looking for!
 
 ## Requirements
 * iOS 8+
@@ -19,18 +19,18 @@ Add the GaugeView pod into your project and run `pod install`
 Download GaugeVIew and import `GaugeView.swift` and `GaugeLayer.swift` inside your xcode project.
 
 ## Sample App
-To start to use GaugeView you can use the provided example
+To start using GaugeView you can build the provided example project
 
 1. Open `GaugeExample.xcodeproj` in Xcode.
 2. Build and run.
 
 ## Usage
-It's very easy to set it, import GaugeView in your Swift:
+It's very easy to set up, just import GaugeView in your Swift code:
 ```swift
 	import GaugeView
 ```
 ### Interface Builder:
-Add a UIView with interface builder and set `GaugeView` as UIView custom class.
+Add an UIView with interface builder and set `GaugeView` as UIView custom class.
 
 Link it with the outlet property declared in your code.
 
@@ -38,7 +38,7 @@ Link it with the outlet property declared in your code.
 	@IBOutlet private weak var gaugeView: GaugeView!
 ```
 
-It's simple to customize! Here's an example of configuration of the view. Look at the Customization section to see more details.
+It's simple to customize! Here's an example of configuration of the view. Look at the Customization section for more details.
 
 ```swift
 	gaugeView.percentage = 80
@@ -68,7 +68,7 @@ Instantiate and customize it. Make it fancy! Look at the Customization section t
 ```
 
 ## Customization
-Those are the customizable properties:
+These are the customizable properties:
 
 ### Gauge
 
