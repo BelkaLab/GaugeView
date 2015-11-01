@@ -1,0 +1,6 @@
+framework module Pods_GaugeView_Example {
+  umbrella header "Pods-GaugeView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

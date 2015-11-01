@@ -1,0 +1,14 @@
+PODS:
+  - GaugeView (0.1.0)
+
+DEPENDENCIES:
+  - GaugeView (from `../`)
+
+EXTERNAL SOURCES:
+  GaugeView:
+    :path: ../
+
+SPEC CHECKSUMS:
+  GaugeView: 02667a7b91407f33be1a9e0514a8c95411cde556
+
+COCOAPODS: 0.39.0
