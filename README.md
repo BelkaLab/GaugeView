@@ -9,6 +9,9 @@
 ## Introduction
 GaugeView is a small library to create and display Gauge graphs. It is fully customizable: you can set the color, size, text and many other properties of the graph. Do you need to display data in a simple way? Or you just wanto to add a fancy donut to your app? This is the library you were looking for!
 
+
+![Alt text](http://s8.postimg.org/x97nmfl4l/Simulator_Screen_Shot_02_nov_2015_19_32_43.png)
+
 ## Requirements
 * iOS 8+
 * Xcode 7.0+
@@ -91,14 +94,13 @@ These are the customizable properties:
 
 ## License
 GaugeView is Copyright (c) 2015 Belka, srl. It is free software, and may be redistributed under the terms specified in the LICENSE file.  
-Tl;dr it's MIT.
 
 ## About Belka
 ![Alt text](http://s2.postimg.org/rcjk3hf5x/logo_rosso.jpg)
 
-Belka is a Digital Agency specialized in design and develop mobile application and custom solutions.
-We love open source software! You can see our project or look at our case studies.
+[Belka](http://belka.us/en) is a Digital Agency specialized in design and develop mobile application and custom solutions.
+We love open source software! You can [see our project](http://belka.us/en/portfolio/) or look at our case studies.
 
-Interested? Hire us to help build you next amazing project. 
+Interested? [Hire us](http://belka.us/en/contacts/) to help build you next amazing project. 
 
-www.belka.us
+[www.belka.us](http://belka.us/en)
