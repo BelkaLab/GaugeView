@@ -18,7 +18,7 @@ class ViewController: UIViewController {
     
     //Gauge View example
     gaugeView.percentage = 80
-    gaugeView.thickness = 5
+    gaugeView.thickness = 10
     
     gaugeView.labelFont = UIFont.systemFontOfSize(40, weight: UIFontWeightThin)
     gaugeView.labelColor = UIColor.lightGrayColor()

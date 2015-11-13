@@ -36,36 +36,36 @@ public class GaugeView: UIView {
   
   //Gauge property
   
-  public var startAngle: Float = 0.0
+  @IBInspectable public var startAngle: Float = 0.0
   
-  public var radius: CGFloat {
+  @IBInspectable public var radius: CGFloat {
     return min(self.bounds.width, self.bounds.height)/2
   }
   
-  public var thickness: CGFloat = 20
+  @IBInspectable public var thickness: CGFloat = 20
   
   public var animationDuration: Float = 0.5
   
-  public var percentage: Float = 20 {
+  @IBInspectable public var percentage: Float = 20 {
     didSet {
       gaugeLayer.stopAngle  = convertPercentageInRadius(percentage)
     }
   }
   
-  public var gaugeBackgroundColor: UIColor = UIColor.grayColor()
+  @IBInspectable public var gaugeBackgroundColor: UIColor = UIColor.grayColor()
   
-  public var gaugeColor: UIColor = UIColor.redColor()
+  @IBInspectable public var gaugeColor: UIColor = UIColor.redColor()
   
   //Label property
   
-  public var labelText: String = "" {
+  @IBInspectable public var labelText: String = "" {
     didSet {
       label.text = labelText
       updateTextLabel()
     }
   }
   
-  public var labelFont: UIFont? {
+  @IBInspectable public var labelFont: UIFont? {
     didSet {
       if let labelFont = labelFont {
         label.font = labelFont
@@ -74,7 +74,7 @@ public class GaugeView: UIView {
     }
   }
   
-  public var labelColor: UIColor? {
+  @IBInspectable public var labelColor: UIColor? {
     didSet {
       if let labelColor = labelColor {
         label.textColor = labelColor
