@@ -10,7 +10,7 @@
 GaugeView is a small library to create and display Gauge graphs. It is fully customizable: you can set the color, size, text and many other properties of the graph. Do you need to display data in a simple way? Or you just wanto to add a fancy donut to your app? This is the library you were looking for!
 
 
-![Alt text](http://s8.postimg.org/x97nmfl4l/Simulator_Screen_Shot_02_nov_2015_19_32_43.png)
+![Alt text](http://s30.postimg.org/mdxhaa6ch/i_Phone6.jpg)
 
 ## Requirements
 * iOS 8+
