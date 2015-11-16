@@ -48,7 +48,9 @@ public class GaugeView: UIView {
   
   @IBInspectable public var percentage: Float = 20 {
     didSet {
-      gaugeLayer.stopAngle  = convertPercentageInRadius(percentage)
+      if let gaugeLayer = gaugeLayer {
+        gaugeLayer.stopAngle  = convertPercentageInRadius(percentage)
+      }
     }
   }
   
