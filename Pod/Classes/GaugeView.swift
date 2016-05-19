@@ -56,6 +56,7 @@ public class GaugeView: UIView {
     didSet {
       if let gaugeLayer = gaugeLayer {
         gaugeLayer.stopAngle  = convertPercentageInRadius(percentage)
+        self.accessibilityValue = "\(percentage)%"
       }
     }
   }
@@ -145,6 +146,12 @@ public class GaugeView: UIView {
   private func setup() {
     createGaugeView()
     createTitleLabel()
+    
+    setupAccessibility()
+  }
+  
+  private func setupAccessibility() {
+    self.isAccessibilityElement = true
   }
   
   private func createGaugeView() {
