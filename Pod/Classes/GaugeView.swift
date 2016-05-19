@@ -35,14 +35,20 @@ public class GaugeView: UIView {
   private var gaugeLayer: GaugeLayer!
   
   //Gauge property
-  
   @IBInspectable public var startAngle: Float = 0.0
   
   @IBInspectable public var radius: CGFloat {
     return min(self.bounds.width, self.bounds.height)/2
   }
   
-  @IBInspectable public var thickness: CGFloat = 20
+  @IBInspectable public var thickness: CGFloat = 20 {
+    didSet {
+      if let gaugeLayer = gaugeLayer {
+        self.setNeedsDisplay()
+        gaugeLayer.setNeedsDisplay()
+      }
+    }
+  }
   
   public var animationDuration: Float = 0.5
   
@@ -54,12 +60,25 @@ public class GaugeView: UIView {
     }
   }
   
-  @IBInspectable public var gaugeBackgroundColor: UIColor = UIColor.grayColor()
+  @IBInspectable public var gaugeBackgroundColor: UIColor = UIColor.grayColor() {
+    didSet {
+      if let gaugeLayer = gaugeLayer {
+        self.setNeedsDisplay()
+        gaugeLayer.setNeedsDisplay()
+      }
+    }
+  }
   
-  @IBInspectable public var gaugeColor: UIColor = UIColor.redColor()
+  @IBInspectable public var gaugeColor: UIColor = UIColor.redColor() {
+    didSet {
+      if let gaugeLayer = gaugeLayer {
+        self.setNeedsDisplay()
+        gaugeLayer.setNeedsDisplay()
+      }
+    }
+  }
   
   //Label property
-  
   @IBInspectable public var labelText: String = "" {
     didSet {
       label.text = labelText
