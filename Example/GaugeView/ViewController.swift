@@ -32,5 +32,11 @@ class ViewController: UIViewController {
     gaugeView.percentage = Float(randomValue)
     gaugeView.labelText = "\(randomValue)%"
   }
+  
+  @IBAction func didPressOnChangeColorButton(sender: AnyObject) {
+    gaugeView.gaugeColor = UIColor.blueColor()
+    gaugeView.gaugeBackgroundColor = UIColor.redColor()
+    gaugeView.thickness = 45
+  }
 }
 
