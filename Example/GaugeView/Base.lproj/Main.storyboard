@@ -1,67 +1,49 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="15G1004" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="ufC-wZ-h7g">
+        <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="GaugeView_Example" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="GaugeView" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
-                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4qM-jy-59j">
-                                <rect key="frame" x="261" y="505" width="79" height="30"/>
-                                <state key="normal" title="Percentage"/>
-                                <connections>
-                                    <action selector="didPressOnButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="lbb-qt-An4"/>
-                                </connections>
-                            </button>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dmy-h8-LV3" customClass="GaugeView" customModule="GaugeView">
-                                <rect key="frame" x="180" y="172" width="240" height="256"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HQ0-UC-duH" customClass="GaugeView" customModule="GaugeView">
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="256" id="MuL-c6-xBa"/>
-                                    <constraint firstAttribute="width" constant="240" id="VRO-xf-6zf"/>
+                                    <constraint firstAttribute="width" constant="125" id="JEG-vD-1fy"/>
+                                    <constraint firstAttribute="height" constant="125" id="yTB-oM-nK3"/>
                                 </constraints>
-                                <userDefinedRuntimeAttributes>
-                                    <userDefinedRuntimeAttribute type="number" keyPath="thickness">
-                                        <integer key="value" value="50"/>
-                                    </userDefinedRuntimeAttribute>
-                                </userDefinedRuntimeAttributes>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HvM-Ua-UOx">
-                                <rect key="frame" x="283" y="543" width="35" height="30"/>
-                                <state key="normal" title="Style"/>
-                                <connections>
-                                    <action selector="didPressOnChangeColorButton:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="G05-s6-U7i"/>
-                                </connections>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uOp-G7-mpx">
+                                <state key="normal" title="Update"/>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="dmy-h8-LV3" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="3Vo-Ph-L4C"/>
-                            <constraint firstItem="HvM-Ua-UOx" firstAttribute="top" secondItem="4qM-jy-59j" secondAttribute="bottom" constant="8" id="NYG-bw-XV9"/>
-                            <constraint firstItem="dmy-h8-LV3" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="Sas-sX-MQS"/>
-                            <constraint firstItem="4qM-jy-59j" firstAttribute="top" secondItem="dmy-h8-LV3" secondAttribute="bottom" constant="77" id="nTN-zt-j7s"/>
-                            <constraint firstItem="4qM-jy-59j" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="nim-BY-KrU"/>
-                            <constraint firstItem="HvM-Ua-UOx" firstAttribute="centerX" secondItem="4qM-jy-59j" secondAttribute="centerX" id="pyf-ca-bnO"/>
+                            <constraint firstItem="uOp-G7-mpx" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4Wn-2Y-XPl"/>
+                            <constraint firstItem="HQ0-UC-duH" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="KAV-oi-WOS"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="uOp-G7-mpx" secondAttribute="bottom" constant="30" id="rEP-z6-gok"/>
+                            <constraint firstItem="HQ0-UC-duH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="wJq-B6-kRL"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="gaugeView" destination="dmy-h8-LV3" id="4bT-Ru-XMV"/>
+                        <outlet property="gaugeView" destination="HQ0-UC-duH" id="8Lc-qd-aKO"/>
+                        <outlet property="updateButton" destination="uOp-G7-mpx" id="un4-HT-WUu"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="268" y="337"/>
         </scene>
     </scenes>
 </document>

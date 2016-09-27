@@ -2,43 +2,37 @@
 //  ViewController.swift
 //  GaugeView
 //
-//  Created by Luca D'Incà on 11/01/2015.
-//  Copyright (c) 2015 Luca D'Incà. All rights reserved.
+//  Created by Omar Albeik on 9/27/16.
+//  Copyright © 2016 omaralbeik. All rights reserved.
 //
 
 import UIKit
-import GaugeView
 
 class ViewController: UIViewController {
-  
-  @IBOutlet private weak var gaugeView: GaugeView!
-  
-  override func viewDidLoad() {
-    super.viewDidLoad()
-    
-    //Gauge View example
-    gaugeView.percentage = 80
-    gaugeView.thickness = 10
-    
-    gaugeView.labelFont = UIFont.systemFontOfSize(40, weight: UIFontWeightThin)
-    gaugeView.labelColor = UIColor.lightGrayColor()
-    gaugeView.gaugeBackgroundColor = UIColor.lightGrayColor()
-    gaugeView.labelText = "80%"
-    
-    gaugeView.accessibilityLabel = "Gauge"
-  }
-  
-  
-  @IBAction func didPressOnButton(sender: AnyObject) {
-    let randomValue = arc4random_uniform(100)
-    gaugeView.percentage = Float(randomValue)
-    gaugeView.labelText = "\(randomValue)%"
-  }
-  
-  @IBAction func didPressOnChangeColorButton(sender: AnyObject) {
-    gaugeView.gaugeColor = UIColor.blueColor()
-    gaugeView.gaugeBackgroundColor = UIColor.redColor()
-    gaugeView.thickness = 45
-  }
+	
+	@IBOutlet weak var gaugeView: GaugeView!
+	@IBOutlet weak var updateButton: UIButton!
+	
+	override func viewDidLoad() {
+		super.viewDidLoad()
+		
+		gaugeView.startAngle = 270
+		
+		updateButton.addTarget(self, action: #selector(self.updateGauge), for: .touchUpInside)
+	}
+	
+	func updateGauge() {
+		let random = Float.randomBetween(min: 0, max: 100)
+		gaugeView.percentage = random
+		
+	}
+	
 }
 
+extension Float {
+	/// Return random double value between two double values.
+	public static func randomBetween(min: Float, max: Float) -> Float {
+		let delta = max - min
+		return min + Float(arc4random_uniform(UInt32(delta)))
+	}
+}

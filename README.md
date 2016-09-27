@@ -2,7 +2,6 @@
 
 ![Alt text](http://s4.postimg.org/c77hy8fpp/Gauge_View_Banner.png)
 
-[![Version](https://img.shields.io/cocoapods/v/GaugeView.svg?style=flat)](http://cocoapods.org/pods/GaugeView)
 [![License](https://img.shields.io/cocoapods/l/GaugeView.svg?style=flat)](http://cocoapods.org/pods/GaugeView)
 [![Platform](https://img.shields.io/cocoapods/p/GaugeView.svg?style=flat)](http://cocoapods.org/pods/GaugeView)
 
@@ -13,15 +12,10 @@ GaugeView is a small library to create and display Gauge graphs. It is fully cus
 ![Alt text](http://s30.postimg.org/mdxhaa6ch/i_Phone6.jpg)
 
 ## Requirements
-* iOS 8+
-* Xcode 7.0+
+* iOS 8.3+
+* Xcode 8.0+
 
-## Installation 
-### CocoaPods
-Add the GaugeView pod into your project and run `pod install`
-```ruby
-pod 'GaugeView'
-```
+## Installation
 ### Manual Install
 Download GaugeVIew and import `GaugeView.swift` and `GaugeLayer.swift` inside your xcode project.
 
@@ -58,9 +52,9 @@ gaugeView.gaugeBackgroundColor = UIColor.lightGrayColor()
 ### Programmaticaly:
 Declare a variable with GaugeView type
 
-```swift 
+```swift
 private var gaugeView: GaugeView!
-``` 
+```
 
 Instantiate and customize it. Make it fancy! Look at the Customization section to see more details.
 
@@ -101,6 +95,6 @@ GaugeView is Copyright (c) 2015 Belka, srl. It is free software, and may be redi
 [Belka](http://belka.us/en) is a Digital Agency specialized in design, mobile applications development and custom solutions.
 We love open source software! You can [see our projects](http://belka.us/en/portfolio/) or look at our case studies.
 
-Interested? [Hire us](http://belka.us/en/contacts/) to help build your next amazing project. 
+Interested? [Hire us](http://belka.us/en/contacts/) to help build your next amazing project.
 
 [www.belka.us](http://belka.us/en)

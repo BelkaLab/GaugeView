@@ -1,6 +1,0 @@
-framework module GaugeView {
-  umbrella header "GaugeView-umbrella.h"
-
-  export *
-  module * { export * }
-}
