@@ -20,24 +20,24 @@ class ViewController: UIViewController {
     gaugeView.percentage = 80
     gaugeView.thickness = 10
     
-    gaugeView.labelFont = UIFont.systemFontOfSize(40, weight: UIFontWeightThin)
-    gaugeView.labelColor = UIColor.lightGrayColor()
-    gaugeView.gaugeBackgroundColor = UIColor.lightGrayColor()
+    gaugeView.labelFont = UIFont.systemFont(ofSize: 40, weight: UIFontWeightThin)
+    gaugeView.labelColor = UIColor.lightGray
+    gaugeView.gaugeBackgroundColor = UIColor.lightGray
     gaugeView.labelText = "80%"
     
     gaugeView.accessibilityLabel = "Gauge"
   }
   
   
-  @IBAction func didPressOnButton(sender: AnyObject) {
+  @IBAction func didPressOnButton(_ sender: AnyObject) {
     let randomValue = arc4random_uniform(100)
     gaugeView.percentage = Float(randomValue)
     gaugeView.labelText = "\(randomValue)%"
   }
   
-  @IBAction func didPressOnChangeColorButton(sender: AnyObject) {
-    gaugeView.gaugeColor = UIColor.blueColor()
-    gaugeView.gaugeBackgroundColor = UIColor.redColor()
+  @IBAction func didPressOnChangeColorButton(_ sender: AnyObject) {
+    gaugeView.gaugeColor = UIColor.blue
+    gaugeView.gaugeBackgroundColor = UIColor.red
     gaugeView.thickness = 45
   }
 }
