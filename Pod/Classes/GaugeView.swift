@@ -55,13 +55,13 @@ public class GaugeView: UIView {
   @IBInspectable public var percentage: Float = 20 {
     didSet {
       if let gaugeLayer = gaugeLayer {
-        gaugeLayer.stopAngle  = convertPercentageInRadius(percentage)
+        gaugeLayer.stopAngle  = convertPercentageInRadius(percentage: percentage)
         self.accessibilityValue = "\(percentage)%"
       }
     }
   }
   
-  @IBInspectable public var gaugeBackgroundColor: UIColor = UIColor.grayColor() {
+  @IBInspectable public var gaugeBackgroundColor: UIColor = UIColor.gray {
     didSet {
       if let gaugeLayer = gaugeLayer {
         self.setNeedsDisplay()
@@ -70,7 +70,7 @@ public class GaugeView: UIView {
     }
   }
   
-  @IBInspectable public var gaugeColor: UIColor = UIColor.redColor() {
+  @IBInspectable public var gaugeColor: UIColor = UIColor.red {
     didSet {
       if let gaugeLayer = gaugeLayer {
         self.setNeedsDisplay()
@@ -127,8 +127,8 @@ public class GaugeView: UIView {
   }
   
   //MARK: - Draw method
-  override public func drawRect(rect: CGRect) {
-    super.drawRect(rect)
+  override public func draw(_ rect: CGRect) {
+    super.draw(rect)
     
     gaugeLayer.radius = radius
     gaugeLayer.thickness = thickness
@@ -136,8 +136,8 @@ public class GaugeView: UIView {
     gaugeLayer.gaugeBackgroundColor = gaugeBackgroundColor
     gaugeLayer.gaugeColor = gaugeColor
     gaugeLayer.animationDuration = animationDuration
-    gaugeLayer.startAngle = convertDegreesToRadius(startAngle)
-    gaugeLayer.stopAngle = convertPercentageInRadius(percentage)
+    gaugeLayer.startAngle = convertDegreesToRadius(degrees: startAngle)
+    gaugeLayer.stopAngle = convertPercentageInRadius(percentage: percentage)
     
     updateTextLabel()
   }
@@ -163,16 +163,16 @@ public class GaugeView: UIView {
     gaugeLayer.gaugeBackgroundColor = gaugeBackgroundColor
     gaugeLayer.gaugeColor = gaugeColor
     gaugeLayer.animationDuration = animationDuration
-    gaugeLayer.startAngle = convertDegreesToRadius(startAngle)
-    gaugeLayer.stopAngle = convertPercentageInRadius(percentage)
+    gaugeLayer.startAngle = convertDegreesToRadius(degrees: startAngle)
+    gaugeLayer.stopAngle = convertPercentageInRadius(percentage: percentage)
     
     layer.addSublayer(gaugeLayer)
     
-    self.backgroundColor = UIColor.clearColor()
+    self.backgroundColor = UIColor.clear
   }
   
   private func createTitleLabel() {
-    label = UILabel(frame: CGRect(origin: CGPointZero, size: CGSizeZero))
+    label = UILabel(frame: CGRect(origin: CGPoint.zero, size: CGSize.zero))
     
     updateTextLabel()
     
@@ -186,7 +186,7 @@ public class GaugeView: UIView {
   
   //MARK: - Utility method
   private func convertPercentageInRadius(percentage: Float) -> Float {
-    return convertDegreesToRadius((360.0 / 100.0 * percentage) + startAngle)
+    return convertDegreesToRadius(degrees: (360.0 / 100.0 * percentage) + startAngle)
   }
   
   private func convertDegreesToRadius(degrees: Float) -> Float {

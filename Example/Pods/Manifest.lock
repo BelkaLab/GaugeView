@@ -1,14 +1,16 @@
 PODS:
-  - GaugeView (0.1.2)
+  - GaugeView (0.1.4)
 
 DEPENDENCIES:
   - GaugeView (from `../`)
 
 EXTERNAL SOURCES:
   GaugeView:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
-  GaugeView: 5d646b37ea9e8aa7ada824469106e767d421d198
+  GaugeView: c086ed105981d51d16ad903fb03138a1ae718e16
 
-COCOAPODS: 0.39.0
+PODFILE CHECKSUM: 4dcb64745ed936b14525a0eb3a239ea361281338
+
+COCOAPODS: 1.1.1

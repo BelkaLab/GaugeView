@@ -1,12 +1,10 @@
 source 'https://github.com/CocoaPods/Specs.git'
 use_frameworks!
 
-target 'GaugeView_Example', :exclusive => true do
+target 'GaugeView_Example' do
   pod "GaugeView", :path => "../"
 end
 
-target 'GaugeView_Tests', :exclusive => true do
+target 'GaugeView_Tests' do
   pod "GaugeView", :path => "../"
-
-  
 end
