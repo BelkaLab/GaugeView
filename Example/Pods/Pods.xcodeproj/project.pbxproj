@@ -7,74 +7,74 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		17A3E7A0E648AF0BC8651D02D471CF80 /* GaugeView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BC390B3CC4323E8FC6861F3F1855820 /* GaugeView-dummy.m */; };
-		404255C99663D195E05C2B6096218C13 /* GaugeView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B02D234CFB086963CFE0E6954CFC5F20 /* GaugeView.bundle */; };
-		4CD0E8E9155A3A977B015850B0CAE418 /* GaugeView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C0C14B9A33E792292667BF4A4393AF2 /* GaugeView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5C6A47CBE009EFFB505672E8FCB3B2B7 /* Pods-GaugeView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AC4B72DBCE894AF1663770B93011B65F /* Pods-GaugeView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6AF97860C1A8C7B5B65B864393ACB1AF /* GaugeLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65A9E6CE2A4227B74C9CC55D8AB11B8 /* GaugeLayer.swift */; };
-		6C74CC65B74FFEF630B8971AB5D1415F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		76F75F6D23ECDAFC9FA3B6509B2CE5FD /* Pods-GaugeView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B444D1B1A8DF460741A092D9B8707B75 /* Pods-GaugeView_Tests-dummy.m */; };
-		86C6C0C4910FE896A070E45E50A9FB6E /* Pods-GaugeView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0278731FD853E5793F6CED27F2F11E56 /* Pods-GaugeView_Example-dummy.m */; };
-		86F8E761A8C9FD36BD3BBEB4D371E17F /* Pods-GaugeView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CF2D3585BC20EDD587C47BEEA4868BDC /* Pods-GaugeView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A4A3DC74B4585C7F4F5D440309C3DD5A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
-		D9311B8519815C6AE1E611189DB9DD5F /* GaugeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7EAFED7BA32F721FB1EF1E30F8EF94C /* GaugeView.swift */; };
-		E019716844A7C265FFB840651F723E99 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		0571322DBAA108194192F79145D99DC8 /* GaugeView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B02D234CFB086963CFE0E6954CFC5F20 /* GaugeView.bundle */; };
+		3A7ECFB2ECB1AB58273C4A1AAB0BA0C0 /* GaugeView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BC390B3CC4323E8FC6861F3F1855820 /* GaugeView-dummy.m */; };
+		3D1A46266285932FFF738E810C098D75 /* Pods-GaugeView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AC4B72DBCE894AF1663770B93011B65F /* Pods-GaugeView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		41CC0DE9B578E86724E2025F9E5628C9 /* Pods-GaugeView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = CF2D3585BC20EDD587C47BEEA4868BDC /* Pods-GaugeView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		583132C3DD2BDDA52805E653FAD446EC /* GaugeLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65A9E6CE2A4227B74C9CC55D8AB11B8 /* GaugeLayer.swift */; };
+		599AD1F384C8A2320AEDB6D6DB60EC6E /* Pods-GaugeView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0278731FD853E5793F6CED27F2F11E56 /* Pods-GaugeView_Example-dummy.m */; };
+		606E62D389DF4CECD94091230E445AE1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		A09A456D1EBECFCEEABBEF04656C90BF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		BE68B9E41C32088AF0898ECE2C166E50 /* GaugeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7EAFED7BA32F721FB1EF1E30F8EF94C /* GaugeView.swift */; };
+		CEAB16B0DC88B1CFDB451DA76CB08D6A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		E5DB9308B58044C3D7844BCB11D58506 /* GaugeView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C0C14B9A33E792292667BF4A4393AF2 /* GaugeView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5CF971D792285AAE254D475EFA10851 /* Pods-GaugeView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B444D1B1A8DF460741A092D9B8707B75 /* Pods-GaugeView_Tests-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		238AAF1CDE327BF1181BB3B34554CFE9 /* PBXContainerItemProxy */ = {
+		54306898311B66144A677591F12A839A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0FA445AB26A44BC733C379E4E78C579E;
-			remoteInfo = GaugeView;
-		};
-		483DDE4BEC480E0F829729027AD45BA4 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A2C95952892F01ED8018BFB5D8ED88B3;
+			remoteGlobalIDString = A48CE1F1B3C744AA41F6406AE11468E9;
 			remoteInfo = "GaugeView-GaugeView";
 		};
-		93619BEAEFE88BFFA489BD7B4485AED2 /* PBXContainerItemProxy */ = {
+		C09D4562DB2CD3C424F1DA5E2A3C5700 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0FA445AB26A44BC733C379E4E78C579E;
+			remoteGlobalIDString = 4246BE120A2B6559A95DEA31DB934805;
+			remoteInfo = GaugeView;
+		};
+		D1851FD2CD24442BBA10EC0E1E8FF8B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4246BE120A2B6559A95DEA31DB934805;
 			remoteInfo = GaugeView;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0278731FD853E5793F6CED27F2F11E56 /* Pods-GaugeView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GaugeView_Example-dummy.m"; sourceTree = "<group>"; };
-		076C62CBE7B7F8DA0B79E847FD237574 /* Pods_GaugeView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GaugeView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		076C62CBE7B7F8DA0B79E847FD237574 /* Pods_GaugeView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GaugeView_Example.framework; path = "Pods-GaugeView_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0A2D6AF1955ED1F7F86864B86722A1DA /* ResourceBundle-GaugeView-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-GaugeView-Info.plist"; sourceTree = "<group>"; };
 		0C0C14B9A33E792292667BF4A4393AF2 /* GaugeView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GaugeView-umbrella.h"; sourceTree = "<group>"; };
 		0D3F2F6DF649BB5E76E39112C110C355 /* Pods-GaugeView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GaugeView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		10F370EAD157CDADD48A07E1A6949017 /* Pods-GaugeView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GaugeView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		16C2CC97B280E54A0EEBC2584D1B2DCB /* Pods-GaugeView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GaugeView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		1C86A760F8FB8360FA5BDE274C10CDDA /* Pods_GaugeView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GaugeView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C86A760F8FB8360FA5BDE274C10CDDA /* Pods_GaugeView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_GaugeView_Tests.framework; path = "Pods-GaugeView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		206252CBAD7E7EFF3E3EEF5E83661F8C /* Pods-GaugeView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GaugeView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		3A95B078539A91C263833AF5F1AE197C /* Pods-GaugeView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GaugeView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3F5A660FBC40E9955692B9AB56495338 /* Pods-GaugeView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-GaugeView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		492ACAB38FF2A6BA6699A82EF28E78C5 /* Pods-GaugeView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-GaugeView_Example.modulemap"; sourceTree = "<group>"; };
+		492ACAB38FF2A6BA6699A82EF28E78C5 /* Pods-GaugeView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-GaugeView_Example.modulemap"; sourceTree = "<group>"; };
 		6544CF3B00D546B69FEF46178104980E /* Pods-GaugeView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-GaugeView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		696A45120134B1BE717513DAE1501688 /* Pods-GaugeView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-GaugeView_Tests.modulemap"; sourceTree = "<group>"; };
+		696A45120134B1BE717513DAE1501688 /* Pods-GaugeView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-GaugeView_Tests.modulemap"; sourceTree = "<group>"; };
 		6BC390B3CC4323E8FC6861F3F1855820 /* GaugeView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GaugeView-dummy.m"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9DB12F4AD8219E1481D497F0F33DDEA2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A24ED30026E497BA16CF696133A1290E /* Pods-GaugeView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GaugeView_Example-frameworks.sh"; sourceTree = "<group>"; };
 		A7EAFED7BA32F721FB1EF1E30F8EF94C /* GaugeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GaugeView.swift; sourceTree = "<group>"; };
 		AC4B72DBCE894AF1663770B93011B65F /* Pods-GaugeView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GaugeView_Tests-umbrella.h"; sourceTree = "<group>"; };
-		B02D234CFB086963CFE0E6954CFC5F20 /* GaugeView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GaugeView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		B0AB11EEF476D8433610EE1C0F0B3039 /* GaugeView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = GaugeView.modulemap; sourceTree = "<group>"; };
+		B02D234CFB086963CFE0E6954CFC5F20 /* GaugeView.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = GaugeView.bundle; path = GaugeView.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0AB11EEF476D8433610EE1C0F0B3039 /* GaugeView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = GaugeView.modulemap; sourceTree = "<group>"; };
 		B444D1B1A8DF460741A092D9B8707B75 /* Pods-GaugeView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-GaugeView_Tests-dummy.m"; sourceTree = "<group>"; };
 		B87B4CE0F1B7D734D6DD5E0119C73740 /* Pods-GaugeView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GaugeView_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		B9B9899F10F953BF8544832BD3270AE3 /* Pods-GaugeView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-GaugeView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C7B03DE502E83E451C792B9953FEAE87 /* Pods-GaugeView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GaugeView_Tests-resources.sh"; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		CF2D3585BC20EDD587C47BEEA4868BDC /* Pods-GaugeView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-GaugeView_Example-umbrella.h"; sourceTree = "<group>"; };
-		D53BC8A9A7C4AAA4D184679BB351603C /* GaugeView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GaugeView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D53BC8A9A7C4AAA4D184679BB351603C /* GaugeView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GaugeView.framework; path = GaugeView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D65A9E6CE2A4227B74C9CC55D8AB11B8 /* GaugeLayer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = GaugeLayer.swift; sourceTree = "<group>"; };
 		DF45BF6FA0B18229F2B6A8F55F694674 /* Pods-GaugeView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-GaugeView_Example-resources.sh"; sourceTree = "<group>"; };
 		E10018F3A02D9E474C8ADACC598FE17C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -84,34 +84,34 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6E3F280BCB737BEBE9763EDF787FF402 /* Frameworks */ = {
+		32FB04DD32D88D2E8438CC2F4440C2A0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6C74CC65B74FFEF630B8971AB5D1415F /* Foundation.framework in Frameworks */,
+				A09A456D1EBECFCEEABBEF04656C90BF /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B69F5300370C1D609A5E3AD7684B8FFF /* Frameworks */ = {
+		3301101B24E13D0D5675FFC2D869C7FF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A4A3DC74B4585C7F4F5D440309C3DD5A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F1D97C6D6F24D8903F1A0C769BDC80F7 /* Frameworks */ = {
+		34FD6A62705F41E7B861CFE59304A379 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E019716844A7C265FFB840651F723E99 /* Foundation.framework in Frameworks */,
+				CEAB16B0DC88B1CFDB451DA76CB08D6A /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F9BF5E0C47A3E67828BB8233F5F625B8 /* Frameworks */ = {
+		42D1279056732F77B1C9E65D6665E122 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				606E62D389DF4CECD94091230E445AE1 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,6 +173,7 @@
 				D65A9E6CE2A4227B74C9CC55D8AB11B8 /* GaugeLayer.swift */,
 				A7EAFED7BA32F721FB1EF1E30F8EF94C /* GaugeView.swift */,
 			);
+			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -189,6 +190,7 @@
 			children = (
 				AA694C6C075D7095B688E5059463EB83 /* Classes */,
 			);
+			name = Pod;
 			path = Pod;
 			sourceTree = "<group>";
 		};
@@ -254,95 +256,77 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		00506113BA141607BF6F1654D796DF80 /* Headers */ = {
+		111289C59E600DB827EEB7696ACA48D3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86F8E761A8C9FD36BD3BBEB4D371E17F /* Pods-GaugeView_Example-umbrella.h in Headers */,
+				3D1A46266285932FFF738E810C098D75 /* Pods-GaugeView_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3AF3F399AB74AF77238C027976788539 /* Headers */ = {
+		1F0AE85999F5B325F98226D415BC2EF3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C6A47CBE009EFFB505672E8FCB3B2B7 /* Pods-GaugeView_Tests-umbrella.h in Headers */,
+				41CC0DE9B578E86724E2025F9E5628C9 /* Pods-GaugeView_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D852973D0BC15C2D96D39E1B28488BC2 /* Headers */ = {
+		D74A84DB1ACBEF25D1F9A83A4F316E20 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4CD0E8E9155A3A977B015850B0CAE418 /* GaugeView-umbrella.h in Headers */,
+				E5DB9308B58044C3D7844BCB11D58506 /* GaugeView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0FA445AB26A44BC733C379E4E78C579E /* GaugeView */ = {
+		4246BE120A2B6559A95DEA31DB934805 /* GaugeView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 59F35561AE6B32413BAEC81C435B1E06 /* Build configuration list for PBXNativeTarget "GaugeView" */;
+			buildConfigurationList = 24CEB976FCD6846E69ABAC9493336E9D /* Build configuration list for PBXNativeTarget "GaugeView" */;
 			buildPhases = (
-				BFF2C225475433A0846684E49426A2DD /* Sources */,
-				F1D97C6D6F24D8903F1A0C769BDC80F7 /* Frameworks */,
-				9411CC1F3C70919C06ED80AC10F56932 /* Resources */,
-				D852973D0BC15C2D96D39E1B28488BC2 /* Headers */,
+				D280FEAD7F4C0C99302EFE905A811966 /* Sources */,
+				32FB04DD32D88D2E8438CC2F4440C2A0 /* Frameworks */,
+				266973C1D557C0E609F904D0D938299C /* Resources */,
+				D74A84DB1ACBEF25D1F9A83A4F316E20 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CC2E4A43E3AE05B9F7BAF4628E06CB34 /* PBXTargetDependency */,
+				7D537C8DC54848AF02BB4878B7058778 /* PBXTargetDependency */,
 			);
 			name = GaugeView;
 			productName = GaugeView;
 			productReference = D53BC8A9A7C4AAA4D184679BB351603C /* GaugeView.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		3CC1D0F82BCE4CDE6A7BD260247B3539 /* Pods-GaugeView_Example */ = {
+		8C22C05CAFFE2194398EE2E42C32A96C /* Pods-GaugeView_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8BF96E6E25E401899AAB1890CB0F793B /* Build configuration list for PBXNativeTarget "Pods-GaugeView_Example" */;
+			buildConfigurationList = 0B9A87569E7E8CE834715E174AE8C9A1 /* Build configuration list for PBXNativeTarget "Pods-GaugeView_Tests" */;
 			buildPhases = (
-				3465CC6DBFD76986F7BE4F097D41292E /* Sources */,
-				6E3F280BCB737BEBE9763EDF787FF402 /* Frameworks */,
-				00506113BA141607BF6F1654D796DF80 /* Headers */,
+				5A7F109C9337197B9D3D96BC6D6911BC /* Sources */,
+				42D1279056732F77B1C9E65D6665E122 /* Frameworks */,
+				111289C59E600DB827EEB7696ACA48D3 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				65F95A67017F10D244A83D7A90F6FFE8 /* PBXTargetDependency */,
-			);
-			name = "Pods-GaugeView_Example";
-			productName = "Pods-GaugeView_Example";
-			productReference = 076C62CBE7B7F8DA0B79E847FD237574 /* Pods_GaugeView_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		94C12D673B8F5281F1C66526E7A9A617 /* Pods-GaugeView_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = DEA18CC7AD3984CB529518FD3015FBE0 /* Build configuration list for PBXNativeTarget "Pods-GaugeView_Tests" */;
-			buildPhases = (
-				A079076741428F0EF72B3AE18BC1BCC2 /* Sources */,
-				B69F5300370C1D609A5E3AD7684B8FFF /* Frameworks */,
-				3AF3F399AB74AF77238C027976788539 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				66E782B3B1BF1B25CF69667F28F06F18 /* PBXTargetDependency */,
+				501F421812AC14EE207A4F1145A2E96B /* PBXTargetDependency */,
 			);
 			name = "Pods-GaugeView_Tests";
 			productName = "Pods-GaugeView_Tests";
 			productReference = 1C86A760F8FB8360FA5BDE274C10CDDA /* Pods_GaugeView_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		A2C95952892F01ED8018BFB5D8ED88B3 /* GaugeView-GaugeView */ = {
+		A48CE1F1B3C744AA41F6406AE11468E9 /* GaugeView-GaugeView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9B2CE03D58ABC5001CA56144C92D3DBD /* Build configuration list for PBXNativeTarget "GaugeView-GaugeView" */;
+			buildConfigurationList = C449C77102C39F6E7FAAE7F53168C204 /* Build configuration list for PBXNativeTarget "GaugeView-GaugeView" */;
 			buildPhases = (
-				C7D3D348D83AA9FFD3FF51309EE1181A /* Sources */,
-				F9BF5E0C47A3E67828BB8233F5F625B8 /* Frameworks */,
-				6A77E873ADA87569AB6C0957F44EC49D /* Resources */,
+				44C1871A49F796D9EFF00F7CD8C64439 /* Sources */,
+				3301101B24E13D0D5675FFC2D869C7FF /* Frameworks */,
+				37B417B3F05527A75B0F029E6C56D665 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -352,6 +336,24 @@
 			productName = "GaugeView-GaugeView";
 			productReference = B02D234CFB086963CFE0E6954CFC5F20 /* GaugeView.bundle */;
 			productType = "com.apple.product-type.bundle";
+		};
+		BB675E7B8D287681D40214CE6D492571 /* Pods-GaugeView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BBAA3721FD9D111D1F20DF2CD1D9C96F /* Build configuration list for PBXNativeTarget "Pods-GaugeView_Example" */;
+			buildPhases = (
+				AE6DAB74F028EF96A65DD12F25A6F4D4 /* Sources */,
+				34FD6A62705F41E7B861CFE59304A379 /* Frameworks */,
+				1F0AE85999F5B325F98226D415BC2EF3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1C0F4A72F11661857BE3DD82F74AA239 /* PBXTargetDependency */,
+			);
+			name = "Pods-GaugeView_Example";
+			productName = "Pods-GaugeView_Example";
+			productReference = 076C62CBE7B7F8DA0B79E847FD237574 /* Pods_GaugeView_Example.framework */;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
@@ -374,91 +376,211 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0FA445AB26A44BC733C379E4E78C579E /* GaugeView */,
-				A2C95952892F01ED8018BFB5D8ED88B3 /* GaugeView-GaugeView */,
-				3CC1D0F82BCE4CDE6A7BD260247B3539 /* Pods-GaugeView_Example */,
-				94C12D673B8F5281F1C66526E7A9A617 /* Pods-GaugeView_Tests */,
+				4246BE120A2B6559A95DEA31DB934805 /* GaugeView */,
+				A48CE1F1B3C744AA41F6406AE11468E9 /* GaugeView-GaugeView */,
+				BB675E7B8D287681D40214CE6D492571 /* Pods-GaugeView_Example */,
+				8C22C05CAFFE2194398EE2E42C32A96C /* Pods-GaugeView_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6A77E873ADA87569AB6C0957F44EC49D /* Resources */ = {
+		266973C1D557C0E609F904D0D938299C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0571322DBAA108194192F79145D99DC8 /* GaugeView.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9411CC1F3C70919C06ED80AC10F56932 /* Resources */ = {
+		37B417B3F05527A75B0F029E6C56D665 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				404255C99663D195E05C2B6096218C13 /* GaugeView.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3465CC6DBFD76986F7BE4F097D41292E /* Sources */ = {
+		44C1871A49F796D9EFF00F7CD8C64439 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86C6C0C4910FE896A070E45E50A9FB6E /* Pods-GaugeView_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A079076741428F0EF72B3AE18BC1BCC2 /* Sources */ = {
+		5A7F109C9337197B9D3D96BC6D6911BC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				76F75F6D23ECDAFC9FA3B6509B2CE5FD /* Pods-GaugeView_Tests-dummy.m in Sources */,
+				F5CF971D792285AAE254D475EFA10851 /* Pods-GaugeView_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BFF2C225475433A0846684E49426A2DD /* Sources */ = {
+		AE6DAB74F028EF96A65DD12F25A6F4D4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6AF97860C1A8C7B5B65B864393ACB1AF /* GaugeLayer.swift in Sources */,
-				17A3E7A0E648AF0BC8651D02D471CF80 /* GaugeView-dummy.m in Sources */,
-				D9311B8519815C6AE1E611189DB9DD5F /* GaugeView.swift in Sources */,
+				599AD1F384C8A2320AEDB6D6DB60EC6E /* Pods-GaugeView_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C7D3D348D83AA9FFD3FF51309EE1181A /* Sources */ = {
+		D280FEAD7F4C0C99302EFE905A811966 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				583132C3DD2BDDA52805E653FAD446EC /* GaugeLayer.swift in Sources */,
+				3A7ECFB2ECB1AB58273C4A1AAB0BA0C0 /* GaugeView-dummy.m in Sources */,
+				BE68B9E41C32088AF0898ECE2C166E50 /* GaugeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		65F95A67017F10D244A83D7A90F6FFE8 /* PBXTargetDependency */ = {
+		1C0F4A72F11661857BE3DD82F74AA239 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GaugeView;
-			target = 0FA445AB26A44BC733C379E4E78C579E /* GaugeView */;
-			targetProxy = 238AAF1CDE327BF1181BB3B34554CFE9 /* PBXContainerItemProxy */;
+			target = 4246BE120A2B6559A95DEA31DB934805 /* GaugeView */;
+			targetProxy = D1851FD2CD24442BBA10EC0E1E8FF8B1 /* PBXContainerItemProxy */;
 		};
-		66E782B3B1BF1B25CF69667F28F06F18 /* PBXTargetDependency */ = {
+		501F421812AC14EE207A4F1145A2E96B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = GaugeView;
-			target = 0FA445AB26A44BC733C379E4E78C579E /* GaugeView */;
-			targetProxy = 93619BEAEFE88BFFA489BD7B4485AED2 /* PBXContainerItemProxy */;
+			target = 4246BE120A2B6559A95DEA31DB934805 /* GaugeView */;
+			targetProxy = C09D4562DB2CD3C424F1DA5E2A3C5700 /* PBXContainerItemProxy */;
 		};
-		CC2E4A43E3AE05B9F7BAF4628E06CB34 /* PBXTargetDependency */ = {
+		7D537C8DC54848AF02BB4878B7058778 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "GaugeView-GaugeView";
-			target = A2C95952892F01ED8018BFB5D8ED88B3 /* GaugeView-GaugeView */;
-			targetProxy = 483DDE4BEC480E0F829729027AD45BA4 /* PBXContainerItemProxy */;
+			target = A48CE1F1B3C744AA41F6406AE11468E9 /* GaugeView-GaugeView */;
+			targetProxy = 54306898311B66144A677591F12A839A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		37E7C9A0BE10ED14A0EBBC6FE598E993 /* Debug */ = {
+		0A9E525072F4F729A2E2F0633DD1794C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4F00D96529EB96BA2D1DDC94E0532D5 /* GaugeView.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/GaugeView";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/GaugeView/ResourceBundle-GaugeView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = GaugeView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		1019C59B65A106E0E2BDABDB532D95E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6544CF3B00D546B69FEF46178104980E /* Pods-GaugeView_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GaugeView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GaugeView_Example/Pods-GaugeView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GaugeView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		31C8374020DABB5CC92D97B1601C9126 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 206252CBAD7E7EFF3E3EEF5E83661F8C /* Pods-GaugeView_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-GaugeView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-GaugeView_Example/Pods-GaugeView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_GaugeView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3C9B595357A6C1175B6CFEBA5379991E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4F00D96529EB96BA2D1DDC94E0532D5 /* GaugeView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GaugeView/GaugeView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GaugeView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GaugeView/GaugeView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = GaugeView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		48CF6EDA7CA093FB4BD2A655E06E5505 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 10F370EAD157CDADD48A07E1A6949017 /* Pods-GaugeView_Tests.debug.xcconfig */;
 			buildSettings = {
@@ -493,38 +615,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		3B2BD97CFBBDE6AB4F69EE9BD193E4DF /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E4F00D96529EB96BA2D1DDC94E0532D5 /* GaugeView.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/GaugeView/GaugeView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GaugeView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GaugeView/GaugeView.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = GaugeView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -563,74 +653,6 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		95DB19DE4D261CCFD6619C4CA8B3978E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E4F00D96529EB96BA2D1DDC94E0532D5 /* GaugeView.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/GaugeView/GaugeView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/GaugeView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/GaugeView/GaugeView.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = GaugeView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		9DFD3C2A3323542D795FAE25D811DB25 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 206252CBAD7E7EFF3E3EEF5E83661F8C /* Pods-GaugeView_Example.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-GaugeView_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-GaugeView_Example/Pods-GaugeView_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_GaugeView_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -678,77 +700,7 @@
 			};
 			name = Debug;
 		};
-		A41D972877C21BF5B1B7F5E9020FECB9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E4F00D96529EB96BA2D1DDC94E0532D5 /* GaugeView.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/GaugeView";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/GaugeView/ResourceBundle-GaugeView-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = GaugeView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		C65A916CA96FB5817FEAEAEEE36CDCAA /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E4F00D96529EB96BA2D1DDC94E0532D5 /* GaugeView.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/GaugeView";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/GaugeView/ResourceBundle-GaugeView-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = GaugeView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		C7B1936831992DB91483B8C1ACFFCF6F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6544CF3B00D546B69FEF46178104980E /* Pods-GaugeView_Example.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-GaugeView_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-GaugeView_Example/Pods-GaugeView_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_GaugeView_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		CBC782A966005E8FBA3F385EF4E461C6 /* Release */ = {
+		A05D54867692105D0781634DB514A1A8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0D3F2F6DF649BB5E76E39112C110C355 /* Pods-GaugeView_Tests.release.xcconfig */;
 			buildSettings = {
@@ -783,9 +735,77 @@
 			};
 			name = Release;
 		};
+		A198B9828B0F584FF3D5CD89747C8F01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4F00D96529EB96BA2D1DDC94E0532D5 /* GaugeView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/GaugeView/GaugeView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GaugeView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/GaugeView/GaugeView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = GaugeView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		AF2432F35A1E6D2E8E9B4812AE0C4C9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4F00D96529EB96BA2D1DDC94E0532D5 /* GaugeView.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/GaugeView";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/GaugeView/ResourceBundle-GaugeView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = GaugeView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0B9A87569E7E8CE834715E174AE8C9A1 /* Build configuration list for PBXNativeTarget "Pods-GaugeView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				48CF6EDA7CA093FB4BD2A655E06E5505 /* Debug */,
+				A05D54867692105D0781634DB514A1A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24CEB976FCD6846E69ABAC9493336E9D /* Build configuration list for PBXNativeTarget "GaugeView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A198B9828B0F584FF3D5CD89747C8F01 /* Debug */,
+				3C9B595357A6C1175B6CFEBA5379991E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -795,38 +815,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		59F35561AE6B32413BAEC81C435B1E06 /* Build configuration list for PBXNativeTarget "GaugeView" */ = {
+		BBAA3721FD9D111D1F20DF2CD1D9C96F /* Build configuration list for PBXNativeTarget "Pods-GaugeView_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				95DB19DE4D261CCFD6619C4CA8B3978E /* Debug */,
-				3B2BD97CFBBDE6AB4F69EE9BD193E4DF /* Release */,
+				1019C59B65A106E0E2BDABDB532D95E4 /* Debug */,
+				31C8374020DABB5CC92D97B1601C9126 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8BF96E6E25E401899AAB1890CB0F793B /* Build configuration list for PBXNativeTarget "Pods-GaugeView_Example" */ = {
+		C449C77102C39F6E7FAAE7F53168C204 /* Build configuration list for PBXNativeTarget "GaugeView-GaugeView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C7B1936831992DB91483B8C1ACFFCF6F /* Debug */,
-				9DFD3C2A3323542D795FAE25D811DB25 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		9B2CE03D58ABC5001CA56144C92D3DBD /* Build configuration list for PBXNativeTarget "GaugeView-GaugeView" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A41D972877C21BF5B1B7F5E9020FECB9 /* Debug */,
-				C65A916CA96FB5817FEAEAEEE36CDCAA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DEA18CC7AD3984CB529518FD3015FBE0 /* Build configuration list for PBXNativeTarget "Pods-GaugeView_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				37E7C9A0BE10ED14A0EBBC6FE598E993 /* Debug */,
-				CBC782A966005E8FBA3F385EF4E461C6 /* Release */,
+				0A9E525072F4F729A2E2F0633DD1794C /* Debug */,
+				AF2432F35A1E6D2E8E9B4812AE0C4C9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
