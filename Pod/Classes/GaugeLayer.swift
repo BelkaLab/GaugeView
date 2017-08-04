@@ -61,24 +61,21 @@ class GaugeLayer: CALayer {
   ///
   
   //MARK: - Init methods
-  override init(layer: Any) {
-    super.init(layer: layer)
-    
-    if ((layer as! AnyObject).isKind(of: GaugeLayer.self)) {
-      if let previous = layer as? GaugeLayer {
-        startAngle = previous.startAngle
-        stopAngle = previous.stopAngle
-        
-        radius = previous.radius
-        thickness = previous.thickness
-        gaugeBackgroundColor = previous.gaugeBackgroundColor
-        gaugeColor = previous.gaugeColor
-      }
+    override init(layer: Any) {
+        super.init(layer: layer)
+        if ((layer as AnyObject).isKind(of: GaugeLayer.self)) {
+            if let previous = layer as? GaugeLayer {
+                startAngle = previous.startAngle
+                stopAngle = previous.stopAngle
+                radius = previous.radius
+                thickness = previous.thickness
+                gaugeBackgroundColor = previous.gaugeBackgroundColor
+                gaugeColor = previous.gaugeColor
+            }
+        }
+        setup()
     }
-    
-    setup()
-  }
-  
+
   required init?(coder aDecoder: NSCoder) {
     super.init(coder: aDecoder)
   }
@@ -132,7 +129,7 @@ class GaugeLayer: CALayer {
     
     ctx.setShouldAntialias(true)
     
-    ctx.addArc(center: CGPoint(x: self.frame.size.width/2, y: self.frame.size.height/2), radius: radius-(thickness/2), startAngle: 0, endAngle: CGFloat(2.0*M_PI), clockwise: false)
+    ctx.addArc(center: CGPoint(x: self.frame.size.width/2, y: self.frame.size.height/2), radius: radius-(thickness/2), startAngle: 0, endAngle: CGFloat(2.0*Double.pi), clockwise: false)
     ctx.setLineWidth(thickness)
     ctx.setLineCap(.round)
     ctx.setStrokeColor(gaugeBackgroundColor.cgColor)
@@ -148,7 +145,7 @@ class GaugeLayer: CALayer {
   
   //MARK: - Class helper methods
   private func convertDegreesToRadius(degrees: CGFloat) -> CGFloat {
-    return ((CGFloat(M_PI) * degrees) / 180.0)
+    return ((CGFloat(Double.pi) * degrees) / 180.0)
   }
   
 }

@@ -190,7 +190,7 @@ public class GaugeView: UIView {
   }
   
   private func convertDegreesToRadius(degrees: Float) -> Float {
-    return ((Float(M_PI) * degrees) / 180.0)
+    return ((Float(Double.pi) * degrees) / 180.0)
   }
   
 }
