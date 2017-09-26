@@ -30,9 +30,9 @@ public class GaugeView: UIView {
   // Class proprty
   ///
   
-  private var label: UILabel!
+  private var label: UILabel?
   
-  private var gaugeLayer: GaugeLayer!
+  private var gaugeLayer: GaugeLayer?
   
   //Gauge property
   @IBInspectable public var startAngle: Float = 0.0
@@ -82,7 +82,7 @@ public class GaugeView: UIView {
   //Label property
   @IBInspectable public var labelText: String = "" {
     didSet {
-      label.text = labelText
+      label?.text = labelText
       updateTextLabel()
     }
   }
@@ -90,7 +90,7 @@ public class GaugeView: UIView {
   @IBInspectable public var labelFont: UIFont? {
     didSet {
       if let labelFont = labelFont {
-        label.font = labelFont
+        label?.font = labelFont
         updateTextLabel()
       }
     }
@@ -99,7 +99,7 @@ public class GaugeView: UIView {
   @IBInspectable public var labelColor: UIColor? {
     didSet {
       if let labelColor = labelColor {
-        label.textColor = labelColor
+        label?.textColor = labelColor
         updateTextLabel()
       }
     }
@@ -130,14 +130,14 @@ public class GaugeView: UIView {
   override public func draw(_ rect: CGRect) {
     super.draw(rect)
     
-    gaugeLayer.radius = radius
-    gaugeLayer.thickness = thickness
-    gaugeLayer.frame = self.bounds
-    gaugeLayer.gaugeBackgroundColor = gaugeBackgroundColor
-    gaugeLayer.gaugeColor = gaugeColor
-    gaugeLayer.animationDuration = animationDuration
-    gaugeLayer.startAngle = convertDegreesToRadius(degrees: startAngle)
-    gaugeLayer.stopAngle = convertPercentageInRadius(percentage: percentage)
+    gaugeLayer?.radius = radius
+    gaugeLayer?.thickness = thickness
+    gaugeLayer?.frame = self.bounds
+    gaugeLayer?.gaugeBackgroundColor = gaugeBackgroundColor
+    gaugeLayer?.gaugeColor = gaugeColor
+    gaugeLayer?.animationDuration = animationDuration
+    gaugeLayer?.startAngle = convertDegreesToRadius(degrees: startAngle)
+    gaugeLayer?.stopAngle = convertPercentageInRadius(percentage: percentage)
     
     updateTextLabel()
   }
@@ -157,16 +157,16 @@ public class GaugeView: UIView {
   private func createGaugeView() {
     gaugeLayer = GaugeLayer(layer: layer)
     
-    gaugeLayer.radius = radius
-    gaugeLayer.thickness = thickness
-    gaugeLayer.frame = self.bounds
-    gaugeLayer.gaugeBackgroundColor = gaugeBackgroundColor
-    gaugeLayer.gaugeColor = gaugeColor
-    gaugeLayer.animationDuration = animationDuration
-    gaugeLayer.startAngle = convertDegreesToRadius(degrees: startAngle)
-    gaugeLayer.stopAngle = convertPercentageInRadius(percentage: percentage)
+    gaugeLayer?.radius = radius
+    gaugeLayer?.thickness = thickness
+    gaugeLayer?.frame = self.bounds
+    gaugeLayer?.gaugeBackgroundColor = gaugeBackgroundColor
+    gaugeLayer?.gaugeColor = gaugeColor
+    gaugeLayer?.animationDuration = animationDuration
+    gaugeLayer?.startAngle = convertDegreesToRadius(degrees: startAngle)
+    gaugeLayer?.stopAngle = convertPercentageInRadius(percentage: percentage)
     
-    layer.addSublayer(gaugeLayer)
+    layer.addSublayer(gaugeLayer!)
     
     self.backgroundColor = UIColor.clear
   }
@@ -176,12 +176,12 @@ public class GaugeView: UIView {
     
     updateTextLabel()
     
-    self.addSubview(label)
+    self.addSubview(label!)
   }
   
   private func updateTextLabel() {
-    label.sizeToFit()
-    label.center = CGPoint(x: self.bounds.width/2, y: self.bounds.height/2)
+    label?.sizeToFit()
+    label?.center = CGPoint(x: self.bounds.width/2, y: self.bounds.height/2)
   }
   
   //MARK: - Utility method
@@ -190,7 +190,7 @@ public class GaugeView: UIView {
   }
   
   private func convertDegreesToRadius(degrees: Float) -> Float {
-    return ((Float(M_PI) * degrees) / 180.0)
+    return ((Float(Double.pi) * degrees) / 180.0)
   }
   
 }
