@@ -64,7 +64,7 @@ class GaugeLayer: CALayer {
   override init(layer: Any) {
     super.init(layer: layer)
     
-    if ((layer as! AnyObject).isKind(of: GaugeLayer.self)) {
+    if ((layer as AnyObject).isKind(of: GaugeLayer.self)) {
       if let previous = layer as? GaugeLayer {
         startAngle = previous.startAngle
         stopAngle = previous.stopAngle
@@ -107,7 +107,7 @@ class GaugeLayer: CALayer {
   private func createGaugeAnimation(key: String) -> CABasicAnimation {
     let animation = CABasicAnimation(keyPath: key)
     animation.fromValue = self.presentation()?.value(forKey: key)
-    animation.timingFunction = CAMediaTimingFunction(name: kCAMediaTimingFunctionEaseOut)
+    animation.timingFunction = CAMediaTimingFunction(name: CAMediaTimingFunctionName.easeOut)
     animation.duration = Double(animationDuration)
     return animation
   }
@@ -132,7 +132,7 @@ class GaugeLayer: CALayer {
     
     ctx.setShouldAntialias(true)
     
-    ctx.addArc(center: CGPoint(x: self.frame.size.width/2, y: self.frame.size.height/2), radius: radius-(thickness/2), startAngle: 0, endAngle: CGFloat(2.0*M_PI), clockwise: false)
+    ctx.addArc(center: CGPoint(x: self.frame.size.width/2, y: self.frame.size.height/2), radius: radius-(thickness/2), startAngle: 0, endAngle: CGFloat(2.0*CGFloat.pi), clockwise: false)
     ctx.setLineWidth(thickness)
     ctx.setLineCap(.round)
     ctx.setStrokeColor(gaugeBackgroundColor.cgColor)
@@ -145,10 +145,8 @@ class GaugeLayer: CALayer {
     ctx.drawPath(using: .eoFill)
   }
   
-  
   //MARK: - Class helper methods
   private func convertDegreesToRadius(degrees: CGFloat) -> CGFloat {
-    return ((CGFloat(M_PI) * degrees) / 180.0)
+    return ((CGFloat.pi * degrees) / 180.0)
   }
-  
 }
