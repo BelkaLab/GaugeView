@@ -50,7 +50,7 @@ public class GaugeView: UIView {
     }
   }
   
-  public var animationDuration: Float = 0.5
+  @objc public var animationDuration: Float = 0.5
   
   @IBInspectable public var percentage: Float = 20 {
     didSet {
@@ -190,7 +190,7 @@ public class GaugeView: UIView {
   }
   
   private func convertDegreesToRadius(degrees: Float) -> Float {
-    return ((Float(M_PI) * degrees) / 180.0)
+    return ((Float.pi * degrees) / 180.0)
   }
   
 }
